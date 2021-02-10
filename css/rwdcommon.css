@@ -134,7 +134,7 @@
         border-right: 1px solid #000;
     }
     #footer .menu a:last-child {
-        border-right:none
+        border-right: 1px solid #000;
     }
     #footer .menu a:nth-child(2n+1) {
         border-left: 1px solid #000;
@@ -163,7 +163,8 @@
     #footer .company span::after {
         content:'';
         width:1px; background:rgba(255,255,255,0.5);
-        position:absolute; top:4px; bottom:2px; right:-2px; 
+        position:absolute; top:4px; bottom:2px; right:-2px;
+        display:none
      }
     #footer .company span:last-child::after { 
         display:none
